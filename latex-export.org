@@ -1,0 +1,64 @@
+#+title: Latex Export
+
+#+LaTeX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [letterpaper]
+#+LATEX_HEADER: \usepackage{lmodern} % Ensures we have the right font
+
+#+LATEX_HEADER: \usepackage[AUTO]{inputenc}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{amsmath, amsthm, amssymb, amsfonts, amssymb, amscd}
+#+LATEX_HEADER: \usepackage[table, xcdraw]{xcolor}
+#+LATEX_HEADER: \usepackage{mdsymbol}
+#+LATEX_HEADER: \usepackage{tikz-cd}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage[spanish, activeacute]{babel}
+#+LATEX_HEADER: \usepackage{color}
+#+LATEX_HEADER: \usepackage{transparent}
+#+LATEX_HEADER: \graphicspath{{./figs/}}
+#+LATEX_HEADER: \usepackage{makeidx}
+#+LATEX_HEADER: \usepackage{afterpage}
+#+LATEX_HEADER: \usepackage{array}
+
+#+LATEX_HEADER: \usepackage{pst-node}
+#+LATEX_HEADER: \newtheorem{teorema}{Teorema}[section]
+#+LATEX_HEADER: \newtheorem{prop}[teorema]{Proposici\'on}
+#+LATEX_HEADER: \newtheorem{cor}[teorema]{Corolario}
+#+LATEX_HEADER: \newtheorem{lema}[teorema]{Lema}
+#+LATEX_HEADER: \newtheorem{def.}{Definici\'on}[section]
+#+LATEX_HEADER: \newtheorem{afir}{Afirmaci\'on}
+#+LATEX_HEADER: \newtheorem{conjetura}{Conjetura}
+
+#+LATEX_HEADER: \renewcommand{\figurename}{Figura}
+#+LATEX_HEADER: \renewcommand{\indexname}{\'{I}ndice anal\'{\i}tico}
+#+LATEX_HEADER: \newcommand{\zah}{\ensuremath{ \mathbb Z }}
+#+LATEX_HEADER: \newcommand{\rac}{\ensuremath{ \mathbb Q }}
+#+LATEX_HEADER: \newcommand{\nat}{\ensuremath{ \mathbb N }}
+#+LATEX_HEADER: \newcommand{\prob}{\textbf{P}}
+#+LATEX_HEADER: \newcommand{\esp}{\mathbb E}
+#+LATEX_HEADER: \newcommand{\eje}{{\newline \noindent \sc \textbf{Ejemplo. }}}
+#+LATEX_HEADER: \newcommand{\obs}{{\newline \noindent \sc \textbf{Observación. }}}
+#+LATEX_HEADER: \newcommand{\dem}{{\noindent \sc Demostraci\'on. }}
+#+LATEX_HEADER: \newcommand{\bg}{\ensuremath{\overline \Gamma}}
+#+LATEX_HEADER: \newcommand{\ga}{\ensuremath{\gamma}}
+#+LATEX_HEADER: \newcommand{\fb}{\ensuremath{\overline F}}
+#+LATEX_HEADER: \newcommand{\la}{\ensuremath{\Lambda}}
+#+LATEX_HEADER: \newcommand{\om}{\ensuremath{\Omega}}
+#+LATEX_HEADER: \newcommand{\sig}{\ensuremath{\Sigma}}
+#+LATEX_HEADER: \newcommand{\bt}{\ensuremath{\overline T}}
+#+LATEX_HEADER: \newcommand{\li}{\ensuremath{\mathbb{L}}}
+#+LATEX_HEADER: \newcommand{\ord}{\ensuremath{\mathbb{O}}}
+#+LATEX_HEADER: \newcommand{\bs}{\ensuremath{\mathbb{S}^1}}
+#+LATEX_HEADER: \newcommand{\co}{\ensuremath{\mathbb C }}
+#+LATEX_HEADER: \newcommand{\con}{\ensuremath{\mathbb{C}^n}}
+#+LATEX_HEADER: \newcommand{\cp}{\ensuremath{\mathbb{CP}}}
+#+LATEX_HEADER: \newcommand{\rp}{\ensuremath{\mathbb{RP}}}
+#+LATEX_HEADER: \newcommand{\re}{\ensuremath{\mathbb R }}
+#+LATEX_HEADER: \newcommand{\hc}{\ensuremath{\widehat{\mathbb C} }}
+#+LATEX_HEADER: \newcommand{\pslz}{\ensuremath{\mathrm{PSL}(2,\mathbb Z) }}
+#+LATEX_HEADER: \newcommand{\pslr}{\ensuremath{\mathrm{PSL}(2,\mathbb R) }}
+#+LATEX_HEADER: \newcommand{\pslc}{\ensuremath{\mathrm{PSL}(2,\mathbb C) }}
+#+LATEX_HEADER: \newcommand{\hd}{\ensuremath{\mathbb H^2}}
+#+LATEX_HEADER: \newcommand{\slz}{\ensuremath{\mathrm{SL}(2,\mathbb Z) }}
+#+LATEX_HEADER: \newcommand{\slr}{\ensuremath{\mathrm{SL}(2,\mathbb R) }}
+#+LATEX_HEADER: \newcommand{\slc}{\ensuremath{\mathrm{SL}(2,\mathbb C) }}
+#+LATEX_HEADER: \newcommand{\mdlr}{\ensuremath{\mathrm{M}}}
