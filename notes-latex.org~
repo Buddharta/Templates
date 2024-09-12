@@ -1,6 +1,6 @@
 #+title: Latex Export
 
-#+LaTeX_CLASS: article
+#+LaTeX_CLASS: book
 #+LaTeX_CLASS_OPTIONS: [letterpaper]
 #+LATEX_HEADER: \usepackage{lmodern} % Ensures we have the right font
 

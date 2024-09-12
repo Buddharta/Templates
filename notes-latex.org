@@ -1,6 +1,6 @@
 #+title: Latex Export
 
-#+LaTeX_CLASS: article
+#+LaTeX_CLASS: book
 #+LaTeX_CLASS_OPTIONS: [letterpaper]
 #+LATEX_HEADER: \usepackage{lmodern} % Ensures we have the right font
 
@@ -35,8 +35,10 @@
 #+LATEX_HEADER: \newcommand{\nat}{\ensuremath{ \mathbb N }}
 #+LATEX_HEADER: \newcommand{\prob}{\textbf{P}}
 #+LATEX_HEADER: \newcommand{\esp}{\mathbb E}
+#+LATEX_HEADER: \newcommand{\exe}{{\newline \noindent \sc \textbf{Ejercicio. }}}
 #+LATEX_HEADER: \newcommand{\eje}{{\newline \noindent \sc \textbf{Ejemplo. }}}
 #+LATEX_HEADER: \newcommand{\obs}{{\newline \noindent \sc \textbf{Observación. }}}
+#+LATEX_HEADER: \newcommand{\sol}{{\newline \noindent \sc \textbf{Solución. }}}
 #+LATEX_HEADER: \newcommand{\dem}{{\noindent \sc Demostraci\'on. }}
 #+LATEX_HEADER: \newcommand{\bg}{\ensuremath{\overline \Gamma}}
 #+LATEX_HEADER: \newcommand{\ga}{\ensuremath{\gamma}}
