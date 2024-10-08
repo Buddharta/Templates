@@ -18,8 +18,10 @@
 #+LATEX_HEADER: \usepackage{makeidx}
 #+LATEX_HEADER: \usepackage{afterpage}
 #+LATEX_HEADER: \usepackage{array}
-
 #+LATEX_HEADER: \usepackage{pst-node}
+
+#+LATEX_HEADER: \newcommand{\ind}{\perp\!\!\!\!\perp} 
+
 #+LATEX_HEADER: \newtheorem{teorema}{Teorema}[section]
 #+LATEX_HEADER: \newtheorem{prop}[teorema]{Proposici\'on}
 #+LATEX_HEADER: \newtheorem{cor}[teorema]{Corolario}
@@ -27,7 +29,6 @@
 #+LATEX_HEADER: \newtheorem{def.}{Definici\'on}[section]
 #+LATEX_HEADER: \newtheorem{afir}{Afirmaci\'on}
 #+LATEX_HEADER: \newtheorem{conjetura}{Conjetura}
-
 #+LATEX_HEADER: \renewcommand{\figurename}{Figura}
 #+LATEX_HEADER: \renewcommand{\indexname}{\'{I}ndice anal\'{\i}tico}
 #+LATEX_HEADER: \newcommand{\zah}{\ensuremath{ \mathbb Z }}
@@ -35,8 +36,8 @@
 #+LATEX_HEADER: \newcommand{\nat}{\ensuremath{ \mathbb N }}
 #+LATEX_HEADER: \newcommand{\prob}{\textbf{P}}
 #+LATEX_HEADER: \newcommand{\esp}{\mathbb E}
-#+LATEX_HEADER: \newcommand{\exe}{{\newline \noindent \sc \textbf{Ejercicio. }}}
-#+LATEX_HEADER: \newcommand{\eje}{{\newline \noindent \sc \textbf{Ejemplo. }}}
+#+LATEX_HEADER: \newcommand{\eje}{{\newline \noindent \sc \textbf{Ejercicio. }}}
+#+LATEX_HEADER: \newcommand{\exe}{{\newline \noindent \sc \textbf{Ejemplo. }}}
 #+LATEX_HEADER: \newcommand{\obs}{{\newline \noindent \sc \textbf{Observación. }}}
 #+LATEX_HEADER: \newcommand{\sol}{{\newline \noindent \sc \textbf{Solución. }}}
 #+LATEX_HEADER: \newcommand{\dem}{{\noindent \sc Demostraci\'on. }}
